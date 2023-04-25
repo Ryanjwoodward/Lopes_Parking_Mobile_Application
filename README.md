@@ -3,7 +3,7 @@ Lopes Parking is the basis for a parking solutions service for Grand Canyon Univ
 
 Authors & Developers: Ryan Woodward & Johnny Moore
 *** 
-![alt text]([https://photos.app.goo.gl/Dphw4yhefG8dvmEn9](https://photos.google.com/share/AF1QipPAGwFgL22u-hkw24mGhTV-zawxu45WHOjMPMZY08quQgDO1bSagpjEcLQrf1qqaw/photo/AF1QipMS3qfD0a7Ds_Ak3xjFyLgJRKzY4QtMOsVj83gH?key=UXdWNDgxVURKUzdBYTF4VDNfYWppWDlUeFY4ZXVn) "Lopes Parking Logo")
+![alt text](https://photos.google.com/share/AF1QipPAGwFgL22u-hkw24mGhTV-zawxu45WHOjMPMZY08quQgDO1bSagpjEcLQrf1qqaw/photo/AF1QipMS3qfD0a7Ds_Ak3xjFyLgJRKzY4QtMOsVj83gH?key=UXdWNDgxVURKUzdBYTF4VDNfYWppWDlUeFY4ZXVn) "Lopes Parking Logo")
 
 #### Project Objecives
 + Provide real time information on available parking per-parking structure to inform LPA users where available parking is.
