@@ -6,9 +6,11 @@ Authors & Developers: Ryan Woodward & Johnny Moore
 
 #### Technologies
 
-#### Scope
+#### Illustrations
 
-#### ETC.
+#### Scope of Functions
+
+#### Project Status
 
 
 
