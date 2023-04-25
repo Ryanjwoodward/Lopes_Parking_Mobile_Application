@@ -20,11 +20,16 @@ Authors & Developers: Ryan Woodward & Johnny Moore
 + __GitHub__              : Source Control Management
 
 #### Illustrations
-
+![lpa_system_design](https://user-images.githubusercontent.com/48807137/234424982-dc5fc2f4-b8ab-4d34-99ba-88e56a6d270c.jpg)
+![lpa_ui_1](https://user-images.githubusercontent.com/48807137/234424985-d0502b4a-8452-4e9f-b254-f2f8d532b253.jpg)
+![lpa_ui_2](https://user-images.githubusercontent.com/48807137/234424989-183322af-f74b-4729-9afb-b2eb9af8179c.jpg)
 #### Scope & Requirements
 
+![lopes_parking_requirements](https://user-images.githubusercontent.com/48807137/234424980-38eeaa0a-8705-4141-bd79-23d0b499389a.jpg)
 
 #### Project Status
+
+
 
 
 
