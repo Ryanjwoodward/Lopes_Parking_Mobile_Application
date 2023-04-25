@@ -27,10 +27,3 @@ Authors & Developers: Ryan Woodward & Johnny Moore
 
 ![lopes_parking_requirements](https://user-images.githubusercontent.com/48807137/234424980-38eeaa0a-8705-4141-bd79-23d0b499389a.jpg)
 
-#### Project Status
-
-
-
-
-
-
