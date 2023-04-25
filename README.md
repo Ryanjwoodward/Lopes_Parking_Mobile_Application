@@ -5,12 +5,12 @@ Authors & Developers: Ryan Woodward & Johnny Moore
 ***
 
 #### Technologies
-+ Flutter             : Front-End Framework
-+ Dart                : Programming Language
-+ Firebase            : Back-end Framework
-+ Android Studio      : Development
-+ Jira & Confluence   : Project Management
-+ GitHub              : Source Control Management
++ _Flutter_             : Front-End Framework
++ _Dart_                : Programming Language
++ _Firebase_            : Back-end Framework
++ _Android Studio_      : Development
++ _Jira & Confluence_   : Project Management
++ _GitHub_              : Source Control Management
 
 #### Illustrations
 
