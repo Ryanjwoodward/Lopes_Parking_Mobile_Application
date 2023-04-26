@@ -1,0 +1,165 @@
+@startuml
+set namespaceSeparator ::
+
+class "lopes_parking::main.dart::MyApp" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "lopes_parking::main.dart::MyApp"
+
+class "lopes_parking::main.dart::AuthenticationWrapper" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "lopes_parking::main.dart::AuthenticationWrapper"
+class "lopes_parking::screens::account-page.dart::AccountPage" {
+  +_AccountPageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "lopes_parking::screens::account-page.dart::AccountPage"
+
+class "lopes_parking::screens::account-page.dart::_AccountPageState" {
+  +User user
+  +void initState()
+  +Widget build()
+}
+
+"lopes_parking::screens::account-page.dart::_AccountPageState" o-- "firebase_auth::firebase_auth.dart::User"
+"flutter::src::widgets::framework.dart::State" <|-- "lopes_parking::screens::account-page.dart::_AccountPageState"
+
+class "lopes_parking::screens::checkin-page.dart::CheckInPage" {
+  +_CheckInPageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "lopes_parking::screens::checkin-page.dart::CheckInPage"
+
+class "lopes_parking::screens::checkin-page.dart::_CheckInPageState" {
+  +User user
+  +TextEditingController parkingSpaceController
+  +ScanController controller
+  -String _scanResult
+  -GlobalKey<State<StatefulWidget>> _formKey
+  +void initState()
+  +Widget build()
+  -dynamic _showBarcodeScanner()
+  -AppBar _buildBarcodeScannerAppBar()
+  -Widget _buildBarcodeScannerBody()
+}
+
+"lopes_parking::screens::checkin-page.dart::_CheckInPageState" o-- "firebase_auth::firebase_auth.dart::User"
+"lopes_parking::screens::checkin-page.dart::_CheckInPageState" o-- "flutter::src::widgets::editable_text.dart::TextEditingController"
+"lopes_parking::screens::checkin-page.dart::_CheckInPageState" o-- "scan::scan.dart::ScanController"
+"lopes_parking::screens::checkin-page.dart::_CheckInPageState" o-- "flutter::src::widgets::framework.dart::GlobalKey<State<StatefulWidget>>"
+"flutter::src::widgets::framework.dart::State" <|-- "lopes_parking::screens::checkin-page.dart::_CheckInPageState"
+
+class "lopes_parking::screens::forgotpassword-page.dart::ForgotPasswordPage" {
+  +_ForgotPasswordState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "lopes_parking::screens::forgotpassword-page.dart::ForgotPasswordPage"
+
+class "lopes_parking::screens::forgotpassword-page.dart::_ForgotPasswordState" {
+  +TextEditingController emailController
+  -GlobalKey<State<StatefulWidget>> _formKey
+  +Widget build()
+}
+
+"lopes_parking::screens::forgotpassword-page.dart::_ForgotPasswordState" o-- "flutter::src::widgets::editable_text.dart::TextEditingController"
+"lopes_parking::screens::forgotpassword-page.dart::_ForgotPasswordState" o-- "flutter::src::widgets::framework.dart::GlobalKey<State<StatefulWidget>>"
+"flutter::src::widgets::framework.dart::State" <|-- "lopes_parking::screens::forgotpassword-page.dart::_ForgotPasswordState"
+
+class "lopes_parking::screens::home-page.dart::HomePage" {
+  +_HomePageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "lopes_parking::screens::home-page.dart::HomePage"
+
+class "lopes_parking::screens::home-page.dart::_HomePageState" {
+  +User user
+  +String auth_id
+  +void initState()
+  +Widget build()
+}
+
+"lopes_parking::screens::home-page.dart::_HomePageState" o-- "firebase_auth::firebase_auth.dart::User"
+"flutter::src::widgets::framework.dart::State" <|-- "lopes_parking::screens::home-page.dart::_HomePageState"
+
+class "lopes_parking::screens::parking-page.dart::ParkingPage" {
+  +_ParkingPageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "lopes_parking::screens::parking-page.dart::ParkingPage"
+
+class "lopes_parking::screens::parking-page.dart::_ParkingPageState" {
+  +User user
+  +void initState()
+  +Widget build()
+}
+
+"lopes_parking::screens::parking-page.dart::_ParkingPageState" o-- "firebase_auth::firebase_auth.dart::User"
+"flutter::src::widgets::framework.dart::State" <|-- "lopes_parking::screens::parking-page.dart::_ParkingPageState"
+
+class "lopes_parking::screens::signin-page.dart::SignInPage" {
+  +_SignInPageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "lopes_parking::screens::signin-page.dart::SignInPage"
+
+class "lopes_parking::screens::signin-page.dart::_SignInPageState" {
+  +TextEditingController emailController
+  +TextEditingController passwordController
+  -GlobalKey<State<StatefulWidget>> _formKey
+  +Widget build()
+}
+
+"lopes_parking::screens::signin-page.dart::_SignInPageState" o-- "flutter::src::widgets::editable_text.dart::TextEditingController"
+"lopes_parking::screens::signin-page.dart::_SignInPageState" o-- "flutter::src::widgets::framework.dart::GlobalKey<State<StatefulWidget>>"
+"flutter::src::widgets::framework.dart::State" <|-- "lopes_parking::screens::signin-page.dart::_SignInPageState"
+
+class "lopes_parking::screens::signup-page.dart::SignUpPage" {
+  +_SignUpPageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "lopes_parking::screens::signup-page.dart::SignUpPage"
+
+class "lopes_parking::screens::signup-page.dart::_SignUpPageState" {
+  +TextEditingController emailController
+  +TextEditingController passwordController
+  +TextEditingController phoneNumberController
+  +TextEditingController firstNameController
+  +TextEditingController lastNameController
+  -GlobalKey<State<StatefulWidget>> _formKey
+  +Widget build()
+}
+
+"lopes_parking::screens::signup-page.dart::_SignUpPageState" o-- "flutter::src::widgets::editable_text.dart::TextEditingController"
+"lopes_parking::screens::signup-page.dart::_SignUpPageState" o-- "flutter::src::widgets::framework.dart::GlobalKey<State<StatefulWidget>>"
+"flutter::src::widgets::framework.dart::State" <|-- "lopes_parking::screens::signup-page.dart::_SignUpPageState"
+
+class "lopes_parking::screens::update-account-page.dart::UpdateAccountPage" {
+  +_UpdateAccountPageState createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "lopes_parking::screens::update-account-page.dart::UpdateAccountPage"
+
+class "lopes_parking::screens::update-account-page.dart::_UpdateAccountPageState" {
+  +TextEditingController licensePlateController
+  +TextEditingController permitNumberController
+  +TextEditingController phoneNumberController
+  -GlobalKey<State<StatefulWidget>> _formKey
+  +User user
+  +CollectionReference<Map<String, dynamic>> userCollection
+  +CollectionReference<Map<String, dynamic>> permitCollection
+  +void initState()
+  +Widget build()
+}
+
+"lopes_parking::screens::update-account-page.dart::_UpdateAccountPageState" o-- "flutter::src::widgets::editable_text.dart::TextEditingController"
+"lopes_parking::screens::update-account-page.dart::_UpdateAccountPageState" o-- "flutter::src::widgets::framework.dart::GlobalKey<State<StatefulWidget>>"
+"lopes_parking::services::authentication-service.dart::AuthenticationService" o-- "cloud_firestore::cloud_firestore.dart::FirebaseFirestore"
+"lopes_parking::services::authentication-service.dart::AuthenticationService" o-- "cloud_firestore::cloud_firestore.dart::CollectionReference<Map<String, dynamic>>"
+"lopes_parking::services::authentication-service.dart::AuthenticationService" o-- "dart::async::Stream<User>"
+
+
+@enduml
+
