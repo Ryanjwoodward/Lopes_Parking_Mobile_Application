@@ -23,6 +23,9 @@ Authors & Developers: Ryan Woodward & Johnny Moore
 + __Jira & Confluence__   : Project Management
 + __GitHub__              : Source Control Management
 
+#### Demo
+><img src="https://user-images.githubusercontent.com/48807137/235379450-240b387a-f405-42e9-8062-93f3e08faf60.png" width="25"/> __Full Demo:__ https://youtu.be/VwLckqfPL-Y
+
 #### Illustrations
 ![lpa_system_design](https://user-images.githubusercontent.com/48807137/234424982-dc5fc2f4-b8ab-4d34-99ba-88e56a6d270c.jpg)
 ![lpa_ui_1](https://user-images.githubusercontent.com/48807137/234424985-d0502b4a-8452-4e9f-b254-f2f8d532b253.jpg)
