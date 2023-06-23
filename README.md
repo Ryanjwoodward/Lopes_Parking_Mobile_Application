@@ -12,6 +12,10 @@ Authors & Developers: Ryan Woodward & Johnny Moore
 + Enhance the flow of traffic on campus, by ameliorating jams or delays due to parking, especially on high traffic days
 
 #### Technologies
+><img src="https://github.com/Ryanjwoodward/Lopes_Parking_Mobile_Application/assets/48807137/f2f4c175-85eb-4106-9ffd-0737f08217d1" width="35"/>
+><img src="https://github.com/Ryanjwoodward/Lopes_Parking_Mobile_Application/assets/48807137/b98614c4-f4c8-4ada-b91f-d9e979809c08" width="35"/>
+><img src="https://github.com/Ryanjwoodward/Lopes_Parking_Mobile_Application/assets/48807137/23bf89ec-0e24-4405-ad2a-bb3da3a4dcb8" width="35"/>
+><img src="https://github.com/Ryanjwoodward/Lopes_Parking_Mobile_Application/assets/48807137/cd34bdc3-26dc-43e5-aabb-037badef2082" width="35"/> 
 + __Flutter__             : Front-End Framework
 + __Dart__                : Programming Language
 + __Firebase__            : Back-end Framework
@@ -26,4 +30,6 @@ Authors & Developers: Ryan Woodward & Johnny Moore
 #### Scope & Requirements
 
 ![lopes_parking_requirements](https://user-images.githubusercontent.com/48807137/234424980-38eeaa0a-8705-4141-bd79-23d0b499389a.jpg)
+
+
 
